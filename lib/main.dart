@@ -19,9 +19,9 @@ class HomePage extends StatelessWidget {
           title: Text("Awesome App"),
         ),
         body: Container(
-          width: 500,
+          height: 100,
           color: Colors.teal,
-          child: Column(
+          child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
